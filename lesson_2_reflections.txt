@@ -12,3 +12,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 	Diagrams helps a lot to visualize the branch structure. It makes us easier to understand what changes are being maded in the branch and how the branches are managed.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	When we merge 2 files into a single file all the content from both the files gets into a single files and the checked out files becomes the new HEAD. We represent it in the diagram bracause it becomes easier to understand what we are going to do visually.
