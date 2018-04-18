@@ -3,3 +3,6 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	Staging area is the area for the files which are to be commited.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	We can use staging area to check that we have one commit per logical change by comparing the previous versions of file present in the staging area with the modified files by using the git ediff command. This will make it easy for us to check the modified file for logical change.
