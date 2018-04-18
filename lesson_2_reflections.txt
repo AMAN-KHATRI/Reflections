@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	when we initialixe a repository a repository named .gir is created which is a hidden directory which tracks all the changes made in the file. We need to do it to make a git respository and track it's changes with the help of commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Staging area is the area for the files which are to be commited.
