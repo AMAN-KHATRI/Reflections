@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	We can use staging area to check that we have one commit per logical change by comparing the previous versions of file present in the staging area with the modified files by using the git ediff command. This will make it easy for us to check the modified file for logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When we want to test a new feature for our app and we dont know whether the new feature will be successfull or not we can test that feature on a different branch from master branch, this would not change the original working code and all the things will not be messed up. 
