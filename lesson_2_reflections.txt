@@ -15,3 +15,6 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	When we merge 2 files into a single file all the content from both the files gets into a single files and the checked out files becomes the new HEAD. We represent it in the diagram bracause it becomes easier to understand what we are going to do visually.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Git's automatic merging makes easier to merge 2 commits, but it is not always helpful because if 2 or more developers are working on the same code then git's automatic merge would not be benificial, then we have to manually merge the files by correcting the which is needed. For manual merging git uses some special lines to make the user know which lines are required to change for successful merging.
